@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background:lightblue
+}
+
+.cards{
+    max-width: 1090px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height:50px 50px;
+}
+
+.cards .card-1{
+    background: #fff;
+  width:30%;
+  padding: 30px 30px;
+
+}
+
+.cards .card-2{
+    background: #fff;
+  width:30%;
+  padding: 30px 30px;
+
+}
+
+
+.cards .card-3{
+    background: #fff;
+  width:30%;
+  padding: 30px 30px;
+
+}
+.doller .price{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+  .info-1 h1{
+    color: yellow;
+    /* margin-bottom: 10px; */
+  }
+
+
+  
+  
+  .info-2 h1{
+    color: blue;
+
+  }
+  .info-3 h1{
+    color: lightgreen;
+
+  }
+
+
+  .detail-names{
+
+    margin: 30px 30px;
+    padding: 10px;
+  }
+.detail-names .icon-check{
+    color: yellow;
+}
+.detail-names .icon-check1{
+    color: blue;
+}
+
+.detail-names .icon-check2{
+    color: lightgreen;
+}
+
+.list-name1{
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.list-name2{
+    padding: 30px 30px;
+    text-align: center;
+}
+.list-name3{
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.btn button{
+    width: 100%;
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+padding: 10px;
+background-color: gray;
+}
+.btn2 button{
+    width: 100%;
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+padding: 10px;
+color: #fff;
+}
+.btn3 button{
+    width: 100%;
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+padding: 10px;
+background-color:lightgreen;
+}
+li{
+    list-style: none;
+}
